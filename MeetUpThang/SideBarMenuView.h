@@ -1,5 +1,5 @@
 //
-//  SidebarView.h
+//  SideBarMenuView.h
 //  MeetUpThang
 //
 //  Created by John Andrews on 10/19/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SidebarView : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface SideBarMenuView : UITableViewController
 
 @end

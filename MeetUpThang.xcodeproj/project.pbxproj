@@ -27,9 +27,16 @@
 		19C981051812CC7F006D3034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C980ED1812CC7E006D3034 /* UIKit.framework */; };
 		19C9810D1812CC7F006D3034 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19C9810B1812CC7F006D3034 /* InfoPlist.strings */; };
 		19C9810F1812CC7F006D3034 /* MeetUpThangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C9810E1812CC7F006D3034 /* MeetUpThangTests.m */; };
-		8EC0A80018136E15005E7375 /* SidebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0A7FF18136E15005E7375 /* SidebarView.m */; };
 		8EC0A802181371B0005E7375 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC0A801181371B0005E7375 /* QuartzCore.framework */; };
 		8EC0A806181376BE005E7375 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0A805181376BE005E7375 /* SWRevealViewController.m */; };
+		8EC0A80F181385B7005E7375 /* create-event.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A808181385B7005E7375 /* create-event.png */; };
+		8EC0A810181385B7005E7375 /* list-view.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A809181385B7005E7375 /* list-view.png */; };
+		8EC0A811181385B7005E7375 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A80A181385B7005E7375 /* logo.png */; };
+		8EC0A812181385B7005E7375 /* map-view.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A80B181385B7005E7375 /* map-view.png */; };
+		8EC0A813181385B7005E7375 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A80C181385B7005E7375 /* menu.png */; };
+		8EC0A814181385B7005E7375 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A80D181385B7005E7375 /* search.png */; };
+		8EC0A815181385B7005E7375 /* sub-nav-sort in Resources */ = {isa = PBXBuildFile; fileRef = 8EC0A80E181385B7005E7375 /* sub-nav-sort */; };
+		8EC0A81B18139024005E7375 /* SideBarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0A81A18139024005E7375 /* SideBarMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,11 +83,18 @@
 		19C9810E1812CC7F006D3034 /* MeetUpThangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetUpThangTests.m; sourceTree = "<group>"; };
 		2E531BD683214AAEBFF4054A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A58FCA31D774275A74748B5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		8EC0A7FE18136E15005E7375 /* SidebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarView.h; sourceTree = "<group>"; };
-		8EC0A7FF18136E15005E7375 /* SidebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarView.m; sourceTree = "<group>"; };
 		8EC0A801181371B0005E7375 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8EC0A804181376BE005E7375 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		8EC0A805181376BE005E7375 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8EC0A808181385B7005E7375 /* create-event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-event.png"; sourceTree = "<group>"; };
+		8EC0A809181385B7005E7375 /* list-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-view.png"; sourceTree = "<group>"; };
+		8EC0A80A181385B7005E7375 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8EC0A80B181385B7005E7375 /* map-view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-view.png"; sourceTree = "<group>"; };
+		8EC0A80C181385B7005E7375 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		8EC0A80D181385B7005E7375 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		8EC0A80E181385B7005E7375 /* sub-nav-sort */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sub-nav-sort"; sourceTree = "<group>"; };
+		8EC0A81918139024005E7375 /* SideBarMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenuView.h; sourceTree = "<group>"; };
+		8EC0A81A18139024005E7375 /* SideBarMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +151,8 @@
 				198C323918132E62005AAE0B /* MUTCategoryTableViewCell.m */,
 				198C324018133999005AAE0B /* MUTMainEventTableViewCell.h */,
 				198C324118133999005AAE0B /* MUTMainEventTableViewCell.m */,
-				8EC0A7FE18136E15005E7375 /* SidebarView.h */,
-				8EC0A7FF18136E15005E7375 /* SidebarView.m */,
+				8EC0A81918139024005E7375 /* SideBarMenuView.h */,
+				8EC0A81A18139024005E7375 /* SideBarMenuView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -203,6 +217,7 @@
 		19C980F01812CC7E006D3034 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EC0A807181385B7005E7375 /* Nav Items */,
 				8EC0A803181376BE005E7375 /* SWRevealViewController */,
 				198C323E181338A8005AAE0B /* DummyCells */,
 				19C980F11812CC7E006D3034 /* MeetUpThang-Info.plist */,
@@ -239,6 +254,20 @@
 			);
 			name = SWRevealViewController;
 			path = "../../../../../../Downloads/SWRevealViewController-master/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+		8EC0A807181385B7005E7375 /* Nav Items */ = {
+			isa = PBXGroup;
+			children = (
+				8EC0A808181385B7005E7375 /* create-event.png */,
+				8EC0A809181385B7005E7375 /* list-view.png */,
+				8EC0A80A181385B7005E7375 /* logo.png */,
+				8EC0A80B181385B7005E7375 /* map-view.png */,
+				8EC0A80C181385B7005E7375 /* menu.png */,
+				8EC0A80D181385B7005E7375 /* search.png */,
+				8EC0A80E181385B7005E7375 /* sub-nav-sort */,
+			);
+			path = "Nav Items";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +348,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC0A813181385B7005E7375 /* menu.png in Resources */,
+				8EC0A814181385B7005E7375 /* search.png in Resources */,
+				8EC0A810181385B7005E7375 /* list-view.png in Resources */,
+				8EC0A815181385B7005E7375 /* sub-nav-sort in Resources */,
 				19C980F41812CC7E006D3034 /* InfoPlist.strings in Resources */,
+				8EC0A811181385B7005E7375 /* logo.png in Resources */,
 				19C980FC1812CC7E006D3034 /* Images.xcassets in Resources */,
+				8EC0A812181385B7005E7375 /* map-view.png in Resources */,
+				8EC0A80F181385B7005E7375 /* create-event.png in Resources */,
 				199222AA1812F34C00E91D25 /* Prototype.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EC0A80018136E15005E7375 /* SidebarView.m in Sources */,
 				198C323718131F68005AAE0B /* MUTEventTableViewContainerView.m in Sources */,
 				198C322E18130867005AAE0B /* MUTDealAnnotationView.m in Sources */,
 				198C323A18132E62005AAE0B /* MUTCategoryTableViewCell.m in Sources */,
@@ -383,6 +418,7 @@
 				19C980FA1812CC7E006D3034 /* MUTAppDelegate.m in Sources */,
 				198C323418131C1A005AAE0B /* MUTMainViewController.m in Sources */,
 				198C323D18132EDA005AAE0B /* MUTCategorySearchViewController.m in Sources */,
+				8EC0A81B18139024005E7375 /* SideBarMenuView.m in Sources */,
 				8EC0A806181376BE005E7375 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
